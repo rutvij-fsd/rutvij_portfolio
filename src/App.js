@@ -7,6 +7,7 @@ import Works from './Component/Works/Works';
 import Portfolio from './Component/Portfolio/Portfolio';
 import Testimonial from './Component/Testimonial/Testimonial';
 import Contact from './Component/Contact/Contact';
+import Footer from './Component/Footer/Footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
      <Portfolio/>
      <Testimonial/>
      <Contact/>
+     <Footer/>
 
     </div>
   );
