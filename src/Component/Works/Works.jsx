@@ -6,6 +6,7 @@ import fiverr from '../../img/WebIcon/fiverr.png'
 import Upwork from '../../img/WebIcon/Upwork.png'
 import Shopify from '../../img/WebIcon/Shopify.png'
 import { themeContext } from "../../Context";
+import { motion } from "framer-motion";
 
 const Works = () => {
 
@@ -41,7 +42,13 @@ const Works = () => {
         {/* right side */}
       </div>
       <div className="w-right">
-        <div className="w-mainCircle">
+        <motion.div
+            initial={{ rotate: 90 }}
+            whileInView={{ rotate: 0 }}
+            viewport={{ margin: "-40px" }}
+            transition={{ duration: 6, type: "spring" }}
+            className="w-mainCircle"
+          >
             <div className="w-secCircle">
                 <img src={Upwork} alt="" />
             </div>
@@ -57,7 +64,7 @@ const Works = () => {
             <div className="w-secCircle">
                 <img src={Facebook} alt="" />
             </div>
-        </div>
+        </motion.div>
           
 
         {/* background Circles */}
