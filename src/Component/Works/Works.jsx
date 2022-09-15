@@ -43,10 +43,10 @@ const Works = () => {
       </div>
       <div className="w-right">
         <motion.div
-            initial={{ rotate: 90 }}
+            initial={{ rotate: 45 }}
             whileInView={{ rotate: 0 }}
             viewport={{ margin: "-40px" }}
-            transition={{ duration: 6, type: "spring" }}
+            transition={{ duration: 3.5, type: "spring" }}
             className="w-mainCircle"
           >
             <div className="w-secCircle">
