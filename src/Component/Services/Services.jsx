@@ -1,15 +1,23 @@
-import React from 'react'
+import React, { useContext }  from 'react'
 import heartemoji from '../../img/VectorGraphics/heartemoji.png'
 import glasses from '../../img/VectorGraphics/glasses.png'
 import humble from '../../img/VectorGraphics/humble.png'
 import './Services.css'
 import Card from '../Card/Card'
+import { themeContext } from "../../Context";
+
+
 const Services = () => {
+  // context
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className="services">
         {/* left side */}
         <div className="awesome">
-            <span>My Awesome</span>
+          {/* dark mode */}
+            <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
             <span>Services</span>
             <span>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. consectetur adipisicing elit.
@@ -42,7 +50,6 @@ const Services = () => {
               detail={
                 "Lorem ispum dummy text are usually use in section where we need some random text"
               }
-              color="rgba(252, 166, 31, 0.45)"
             />
           </div>
           <div className="blur s-blur2" style={{ background: "var(--purple)" }}></div>

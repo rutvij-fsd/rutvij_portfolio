@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Intro.css'
 import github from '../../img/WebIcon/github.png'
 import linkedin from '../../img/WebIcon/linkedin.png'
@@ -10,12 +10,18 @@ import thumbup from '../../img/VectorGraphics/thumbup.png'
 import crown from '../../img/VectorGraphics/crown.png'
 import glassesimoji from '../../img/VectorGraphics/glassesimoji.png'
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
+import { themeContext } from "../../Context";
+
 function Intro() {
+
+     // context
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="intro">
         <div className="i-left">
             <div className="i-name">
-                <span>Hy! I Am</span>
+                <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
                 <span>Rutvij Patel</span>
                 <span>Frontend Developer with high level of experience in web designing
             and development, producting the Quality work</span>
