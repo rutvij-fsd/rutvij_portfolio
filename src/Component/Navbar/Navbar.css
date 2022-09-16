@@ -44,12 +44,28 @@
 .n-button{
     flex:2;
 }
+@media screen and (max-width: 820px) and (min-width: 481px){
+    .n-wrapper{
+        flex-direction: column;
+    }
+    .n-list{
+        flex:8;
+    }
+    .n-button{
+        flex:2;
+        margin-left: -60px;
+    }
+
+}
 
 @media screen and (max-width: 480px) {
     .n-list {
       display: none;
+      height: 0;
     }
     .n-button {
         display: none;
     }
   }
+
+  

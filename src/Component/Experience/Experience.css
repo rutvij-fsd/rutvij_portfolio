@@ -43,6 +43,19 @@
 .achievement span:nth-of-type(2){
     color: var(--orange);
 }
+@media screen and (max-width: 820px) and (min-width:481px) {
+    .experience{
+        
+        display:flex;
+        justify-items: center;
+        justify-content: center;
+        gap:5rem;
+        height: 30vh;
+        transform: scale(0.8);
+        margin-bottom: 0rem;
+    } 
+}
+
 
 @media screen and (max-width: 480px) {
     .experience{

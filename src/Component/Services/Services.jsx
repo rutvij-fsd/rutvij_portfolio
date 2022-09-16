@@ -30,7 +30,7 @@ const Services = () => {
                  Necessitatibus porro hic ullam, nihil labore debitis!.
             </span>
             <button className="button s-button">Download CV</button>
-            <div className="blur s-blur1" style={{ background: "#ABF1FF94"}}></div>
+            <div className="blur s-blur1" style={{ background: "#ABF1FF94", display: darkMode ? "none" : ""}}></div>
         </div>
         {/* right side */}
         <div className="cards">
@@ -72,7 +72,7 @@ const Services = () => {
               }
             />
           </motion.div>
-          <div className="blur s-blur2" style={{ background: "var(--purple)" }}></div>
+          <div className="blur s-blur2" style={{ background: "var(--purple)" , display: darkMode ? "none" : "" }}></div>
         </div>
     </div>
 

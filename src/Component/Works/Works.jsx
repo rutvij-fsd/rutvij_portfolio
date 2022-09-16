@@ -15,7 +15,7 @@ const Works = () => {
    const darkMode = theme.state.darkMode;
 
   return (
-    <div className="works" id="works">
+    <div className="works">
       {/* left side */}
         <div className="awesome">
            {/* dark Mode */}
@@ -36,7 +36,7 @@ const Works = () => {
             <button className="button s-button">Hire Me</button>
           <div
             className="blur s-blur1"
-            style={{ background: "#ABF1FF94" }}
+            style={{ background: "#ABF1FF94" , display: darkMode? "none" : "" }}
           ></div>
 
         {/* right side */}

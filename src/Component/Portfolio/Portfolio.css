@@ -44,3 +44,8 @@
     border-radius: 19px;
 }
 
+@media screen and (max-width: 820px) and (min-width:481px) {
+    .portfolio {
+        height: 40vh;
+    }
+}
