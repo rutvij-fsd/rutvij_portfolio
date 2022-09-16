@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rutvij_portfolio/static/css/main.6c78fc81.css",
-    "main.js": "/rutvij_portfolio/static/js/main.dec9f197.js",
+    "main.css": "/rutvij_portfolio/static/css/main.edf13e32.css",
+    "main.js": "/rutvij_portfolio/static/js/main.10ae337c.js",
     "static/media/Rutvij.png": "/rutvij_portfolio/static/media/Rutvij.ac9f3086586ae16bf68e.png",
     "static/media/ecommerce.png": "/rutvij_portfolio/static/media/ecommerce.522da76635d52117102b.png",
     "static/media/sidebar.png": "/rutvij_portfolio/static/media/sidebar.b2225070b8adae68d063.png",
@@ -17,11 +17,11 @@
     "static/media/Vector2.png": "/rutvij_portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/rutvij_portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/rutvij_portfolio/index.html",
-    "main.6c78fc81.css.map": "/rutvij_portfolio/static/css/main.6c78fc81.css.map",
-    "main.dec9f197.js.map": "/rutvij_portfolio/static/js/main.dec9f197.js.map"
+    "main.edf13e32.css.map": "/rutvij_portfolio/static/css/main.edf13e32.css.map",
+    "main.10ae337c.js.map": "/rutvij_portfolio/static/js/main.10ae337c.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c78fc81.css",
-    "static/js/main.dec9f197.js"
+    "static/css/main.edf13e32.css",
+    "static/js/main.10ae337c.js"
   ]
 }
